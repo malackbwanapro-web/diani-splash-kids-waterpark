@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Explicitly allow friendly AI bots (GEO Optimization)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Block known scrapers/spam
+User-agent: CCBot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+
+# Sitemap location
+Sitemap: https://diani-splash-kids.com/sitemap.xml
